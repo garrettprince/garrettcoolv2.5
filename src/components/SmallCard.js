@@ -6,7 +6,7 @@ export default function SmallCard({ status, setStatus }) {
       className={`transition-all mx-6 ${
         status === true
           ? "bg-white rounded-xl shadow-sm "
-          : "bg-white border border-black "
+          : " border border-black bg-blue-500"
       }`}
     >
       <div
